@@ -12,7 +12,7 @@ Let's say we have following two equations
 Now this can be written as a matrix notation
 
 ```math 
-    \begvin{bmatrix} 2 & -1 \\ 
+    \begin{bmatrix} 2 & -1 \\ 
                     -1 & 2 
     \end{bmatrix} 
     \times
