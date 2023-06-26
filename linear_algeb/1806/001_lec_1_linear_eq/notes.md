@@ -67,6 +67,19 @@ Then we can combine col1 and col2, here take one of col1 and 2 of col2 to get th
 (not to scale)
 ![two columns with soln](https://github.com/awanm2/math/blob/main/linear_algeb/1806/001_lec_1_linear_eq/src/column_pic_two_cols_soln.png)
 
+The green vector is the solotion of vector col1 and col2.
+
+## Equation with 3 variables 
+
+Now lets think about equations with 3 unknowns. Say following equation 
+
+\begin{array}{lcl} 
+    2x -y & = & 0 \\ 
+    -x + 2y -3z & = & -1 \\
+       -3y  +4z & = & 4 \\
+    
+    \end{array}
+```
 
 # Links 
 [1. The Geometry of Linear Equations](https://www.youtube.com/watch?v=J7DzL2_Na80)
