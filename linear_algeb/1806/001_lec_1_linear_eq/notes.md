@@ -72,7 +72,7 @@ The green vector is the solotion of vector col1 and col2.
 ## Equation with 3 variables 
 
 Now lets think about equations with 3 unknowns. Say following equation 
-
+```math
 \begin{array}{lcl} 
     2x -y & = & 0 \\ 
     -x + 2y -3z & = & -1 \\
