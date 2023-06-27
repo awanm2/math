@@ -105,5 +105,63 @@ for more than 3 dimesions.
 Now lets write a column picture for above equations
 
 
+```math 
+    x
+    \left[ 
+    \begin{array}{c} 2 \\ -1 \\ 0\end{array} 
+    \right]
+    + 
+    y
+     \left[ 
+    \begin{array}{c} -1 \\ 2 \\ 3\end{array} 
+    \right]
+    +
+    z
+     \left[ 
+    \begin{array}{c} 0 \\ -1 \\ 4\end{array} 
+    \right]
+    =
+    \left[ \begin{array}{c} 0 \\ -1 \\ 4 \end{array} 
+    \right]
+```    
+
+Here the linear combination of the three vectos with right combination will produce b. Here x = 0, y=0 and z = 4.
+
+Another question is can I always solve for $`Ax=b`$ ? Do the linear combinations of the column fill 3 dimensional space ?
+
+One goal we have is to take linear combinations of the vectos and trying to find b. 
+
+There are times when one might not be able to produce a solotion for $`b`$.  
+
+If the 3 columns are in same plane then the combination is in same plane. We can solve if b is in same plane  as all the vectors in $`A`$. 
+But if b is not in the same plane as vector in A (in this particular) case then b is not reachable. So here matrix A is not invertible and anwer will be NULL.
+
+## Matrix Multiplication
+
+Back to our equation $`Ax=b`$. We have to multiply a matrix with a vector. Say 
+
+```math
+\begin{bmatrix} 2 & 5 \\ 
+                1 & 3 
+    \end{bmatrix} 
+    \left[ 
+    \begin{array}{c} 1 \\ 2 \end{array} 
+    \right] 
+```
+
+Using column picture we can do following 
+
+```math
+    1 \left[  \begin{array}{c} 2 \\ 1 \end{array} \right] 
+    + 
+    2 \left[  \begin{array}{c} 5 \\ 3 \end{array} \right] 
+    = 
+    \left[  \begin{array}{c} 12 \\  7 \end{array} \right] 
+```
+
+So $`Ax`$ is linear combination of columns of $`A`$.
+
+We can also do it using rows and dot product.
+
 # Links 
 [1. The Geometry of Linear Equations](https://www.youtube.com/watch?v=J7DzL2_Na80)
