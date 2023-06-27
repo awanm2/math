@@ -81,5 +81,29 @@ Now lets think about equations with 3 unknowns. Say following equation
     \end{array}
 ```
 
+We can write this as 
+So we can write it as 
+```math 
+Ax = b\\ 
+A = \begin{bmatrix} 2 & -1 & 0\\ 
+                    -1 & 2 & -1 \\
+                    0 & -3 & 4\\  
+    \end{bmatrix} \\
+b = \left[ 
+  \begin{array}{c}  0 \\ -1 \\ 4 \end{array} 
+  \right] \\
+x = \left[ 
+  \begin{array}{c}  x \\ y \\ z \end{array} 
+  \right] \\
+``` 
+
+For this equation, the row picture for one of the equaion $` -x + 2y -z = -1 `$. If we plot all the points that solve the equation will form a plane. 
+Each row in a 3 x3 matrix gives us a plane in 3 dimensions. If we have the equation in 3 dimensions, then we have two planes intersecting at some point, then 
+intersection of those two planes give us a line. if all three planes intersect, they meet at a point and that is the solotion. Row picture is hard to visualize 
+for more than 3 dimesions. 
+
+Now lets write a column picture for above equations
+
+
 # Links 
 [1. The Geometry of Linear Equations](https://www.youtube.com/watch?v=J7DzL2_Na80)
